@@ -2,3 +2,26 @@ img {
     height: 480px;
     width: auto;
 }
+
+#index {
+    color: white;
+    background-color: black;
+}
+
+#index h1 {
+    background-color: black;
+    font-size: 52px;
+}
+
+#index ul {
+    color: pink;
+    font-size: xx-large;
+}
+ 
+#index a {
+    text-decoration: none;
+}
+
+#index ul > li {
+    list-style-type: none;
+}
