@@ -14,12 +14,12 @@ img {
 }
 
 #index ul {
-    color: pink;
     font-size: xx-large;
 }
  
 #index a {
     text-decoration: none;
+    color: pink;
 }
 
 #index ul > li {
