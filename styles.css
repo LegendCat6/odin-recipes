@@ -1,33 +1,55 @@
-img {
-    height: 480px;
-    width: auto;
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-#index {
+* {
+    width: 750px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 52px;
+    text-align: center;
+    margin: 50px auto 25px;
+}
+
+img {
+    padding: 0px 100px;
+    margin: 20px 0px;
+}
+
+body {
     color: white;
     background-color: black;
 }
 
-#index h1 {
-    font-size: 52px;
-    text-align: center;
-}
-
-#index ul {
+ul, ol {
     font-size: xx-large;
     background-color: darkgreen;
     padding: 8px;
     margin: 8px auto;
-    width: 750px;
     border: 4px solid gold;
 }
  
-#index a {
+a {
     text-decoration: none;
     color: gold;
 }
 
-#index ul > li {
+ul > li {
     list-style-type: none;
     padding: 8px;
+}
+
+li {
+    width: auto;
+}
+
+ol {
+    padding: 10px 50px;
 }
