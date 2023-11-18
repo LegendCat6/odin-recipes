@@ -9,19 +9,25 @@ img {
 }
 
 #index h1 {
-    background-color: black;
     font-size: 52px;
+    text-align: center;
 }
 
 #index ul {
     font-size: xx-large;
+    background-color: darkgreen;
+    padding: 8px;
+    margin: 8px auto;
+    width: 750px;
+    border: 4px solid gold;
 }
  
 #index a {
     text-decoration: none;
-    color: pink;
+    color: gold;
 }
 
 #index ul > li {
     list-style-type: none;
+    padding: 8px;
 }
