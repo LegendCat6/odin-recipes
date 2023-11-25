@@ -1,15 +1,19 @@
 html {
   box-sizing: border-box;
+  width: 750px;
+  margin: auto;
 }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+  width: inherit;
+  margin: inherit;
 }
 
-* {
-    width: 750px;
-    margin: auto;
+body {
+  /* width: 750px; */
+  /* margin: auto; */
 }
 
 .nav-bar {
@@ -19,7 +23,7 @@ html {
 
   margin: 0;
   padding: 0; 
-  list-style: none;
+  list-style-type: none;
 }
 
 .nav-bar li {
