@@ -1,13 +1,13 @@
 html {
   box-sizing: border-box;
-  width: 750px;
+  max-width: 750px;
   margin: auto;
 }
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-  width: inherit;
+  max-width: inherit;
   margin: inherit;
 }
 
