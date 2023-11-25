@@ -12,6 +12,19 @@ html {
     margin: auto;
 }
 
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; 
+
+  margin: 0;
+  padding: 0; 
+  list-style: none;
+}
+
+.nav-bar li {
+}
+
 h1 {
     font-size: 52px;
     text-align: center;
